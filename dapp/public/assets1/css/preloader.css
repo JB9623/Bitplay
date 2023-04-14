@@ -1,0 +1,6 @@
+body{display:none;}
+#jpreOverlay{background-color:#282840;}
+#jpreLoader{text-align:center;width:260px;margin:0 auto;}
+#jprePercentage{font-family:"Exo 2", sans-serif;font-size:16px;line-height:1.2em;text-transform:uppercase;font-weight:700;letter-spacing:-0.03em;color:#3ffeca;text-align:center;width:260px;margin:0 auto;}
+#jprePercentage::before{content:"Loading...";color:#fff;}
+#jprePercentage::after{content:" ";display:block;font-size:8px;line-height:1.5em;color:#fff;letter-spacing:0;}

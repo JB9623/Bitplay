@@ -1,0 +1,12 @@
+
+.set-left{
+	float: left;
+}
+
+.set-right{
+	float: right;
+}
+
+input[type='radio']:hover, label:hover{
+	cursor: pointer;
+}

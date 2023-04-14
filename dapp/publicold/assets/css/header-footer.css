@@ -1,0 +1,285 @@
+/*helper class*/
+
+.nopadding {
+    padding: 0!important;
+}
+body {
+    background: url(../images/bg.jpg) no-repeat center center fixed;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #3C4453;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*header*/
+
+nav {
+    font-family: Oswald;
+}
+.login-button {
+    width: auto;
+    /* height: 40px; */
+
+    background: #FFF;
+    color: #444444;
+    font-size: 16px;
+    border-radius: 5px;
+    /* display: flex; */
+
+    align-items: center;
+    justify-content: center;
+    /* position: absolute; */
+
+    right: 225px;
+    cursor: pointer;
+    padding: 6px 10px;
+    margin-right: 9px;
+    letter-spacing: 1px;
+}
+.login-button img {
+    margin-right: 8px;
+}
+.register-button {
+    width: auto;
+    /* height: 40px; */
+
+    background: #b68e3b;
+    color: #FFF;
+    font-size: 16px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute; */
+
+    right: 0;
+    padding: 6px 10px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    /* line-height: 7px; */
+}
+/*navbar header*/
+
+/*secondary menu*/
+.navbar .secondary-menu .search {
+    display: inline-block;
+}
+.secondary-menu .search-form input {
+    width: 62%;
+    height: 45px;
+    background: url(../images/svg/search-icon.svg) #ffffff no-repeat 11px 12px;
+    padding-left: 50px;
+    border: solid 1px #21262E;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #444;
+    padding-top: 5px;
+}
+/*right side*/
+
+.secondary-menu .betslip {
+    background: url(//cdn.coingaming.io/sportsbet/images/betslip-icon.svg) no-repeat #ffc000 14px 13px;
+    display: inline-block;
+    width: 55%;
+    font-family: Oswald;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 45px;
+    right: 0;
+    border-radius: 8px;
+    color: #313744;
+    float: right;
+    margin-left: 18px;
+}
+.secondary-menu div {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    /* border-radius: 3px; */
+
+    vertical-align: top;
+}
+[role="button"] {
+    cursor: pointer;
+}
+.secondary-menu .betslip .title {
+    margin-left: 45px;
+    top: 0px;
+    position: relative;
+}
+.secondary-menu .betslip .show {
+    position: absolute;
+    top: 6px;
+    right: 31px;
+    line-height: 30px;
+    font-size: 16px;
+}
+.show {
+    display: block !important;
+}
+.secondary-menu .odds-dropdown-container {
+    display: inline-table;
+    float: right;
+    color: #FFF;
+    right: 0;
+    margin-top: 3px;
+    float: right;
+}
+.secondary-menu .odds-dropdown-container .odds-label {
+    display: inline-block;
+    line-height: 44px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.secondary-menu .odds-dropdown-container .odds-dropdown {
+    margin-top: 5px;
+    display: inline-block;
+    border: solid 1px #21262E;
+    font-family: Arial;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 30px;
+    background: #3C4453;
+    cursor: pointer;
+    width: 115px;
+}
+.secondary-menu .odds-dropdown-container .odds-dropdown .odd-selection.first {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.secondary-menu .odds-dropdown-container .odds-dropdown .odd-selection {
+    padding-left: 10px;
+    padding-right: 14px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.navbar .secondary-menu .odds-dropdown-container .odds-dropdown .extra-selections {
+    display: none;
+}
+
+.navbar-header .menu-item {
+    font-size: 21px;
+    display: inline-table;
+    padding-bottom: 6px;
+    -webkit-font-smoothing: antialiased;
+    line-height: 41px;
+    margin-right: 6px;
+    margin-top: 7px;
+}
+.navbar-header .menu-item.active a {
+    color: #fdde7f!important;
+}
+.navbar-header .menu-item a {
+    color: #FFF!important;
+}
+.navbar-header .menu-item.first {
+    margin-left: 14px;
+}
+/*secondary header*/
+
+.box {
+    cursor: pointer;
+    width: 100%;
+    height: 122px;
+    margin-right: 50px;
+    background: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 25px;
+    margin: 0 auto;
+}
+.link-boxes {
+    margin-top: 33px;
+}
+.logos {
+    margin-top: 43px;
+    border-top: solid 1px #414A59;
+    padding-top: 46px;
+    border-bottom: solid 1px #414A59;
+}
+.logos ul {
+    padding: 0;
+    list-style-type: none;
+    position: relative;
+    text-align: center;
+}
+.logos ul li {
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+    position: relative;
+    margin-right: 33px;
+    margin-bottom: 24px;
+}
+.logos ul li img {
+    opacity: 0.6;
+}
+
+.footer .social-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer .social-container .social-logos {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.footer .social-container .social-logos img {
+    cursor: pointer;
+    margin-right: 25px;
+}
+.footer .footer-info {
+    text-align: center;
+    padding-bottom: 30px;
+    color: #999CA2 !important;
+    border-bottom: solid 1px #414A59;
+    font-size: 12px;
+}
+#contentFooter {
+    padding: 10px 5px;
+    margin-top: 10px;
+    background-size: cover;
+    margin-bottom: 20px;
+    font-size: 12px !important;
+    color: #999CA2 !important;
+}
+/*media queries*/
+
+@media only screen and (max-width: 990px) {
+    .secondary-menu .search-form input {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 585px) {
+    .event-container {
+        display: block;
+        line-height: 30px;
+    }
+    .selection-container {
+        margin-bottom: 12px;
+    }
+    .secondary-menu .search-form input {
+        width: 100%;
+        height: 45px;
+        padding-left: 32px;
+        font-size: 12px;
+        padding-top: 3px;
+        background-size: 15px;
+    }
+    .betslip {
+        margin-top: 14px;
+    }
+    .odds-dropdown-container {
+        margin-top: 14px !important;
+    }
+    .secondary-menu {
+        margin: auto 5%;
+    }
+    .secondary-menu .betslip .show {
+        top: 19px;
+    }
+
+}
